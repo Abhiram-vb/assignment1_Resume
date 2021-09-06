@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: "Serif";
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.main {
+    height: 500px;
+    min-width: 300px;
+    max-width: 1600px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-shrink: 1;
+    border: 2px solid #FFCB91;
+    border-radius: 5px;
+}
+
+.picAnddetails {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.profilePic {
+    height: 100px;
+    max-width: 100px;
+}
+
+.emailPhnoDetails {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emailPhno {
+    padding: 1rem;
+}
+
+.technologies-projects {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.projects {
+    box-sizing: border-box;
+}
+
+.project-title {
+    font-size: 23px;
+    font-weight: bold;
+    color: #464660;
+}
+
+.line {
+    border-width: 5px;
+    background-color: #FFEAC9;
+    width: 100vw;
+}
+
+.description {
+    color: #170055;
+    font-size: 18px;
+}
+
+span {
+    color: #A03C78;
+}
+
+.eachProject {
+    border: solid 5px #FDF5CA;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0.5rem;
+    box-sizing: border-box;
+}
+
+@media (min-width:992px) {
+    .technologies-projects {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .eachProject {
+        flex-wrap: wrap;
+        flex-shrink: 2;
+        box-sizing: border-box;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width:768px) {
+    .technologies-projects {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        background-color: white;
+        width: 210px;
+        border-radius: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 28px;
+        padding-left: 28px;
+        margin-bottom: 24px;
+        font-family: "Open Sans";
+        margin-left: 12px;
+        margin-right: 12px;
+        font-size: 18px;
+        color: #334155;
+    }
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 90%; */
+}
+
+.card {
+    background-color: white;
+    width: 150px;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-bottom: 14px;
+    font-family: "Open Sans";
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 18px;
+    color: #334155;
+}
+
+.border-green {
+    border-left: 8px solid #65a30d;
+}
+
+.border-dark-green {
+    border-left: 8px solid #0d9488;
+}
+
+.border-dark-yellow {
+    border-left: 8px solid #ca8a04;
+}
+
+.border-orange {
+    border-left: 8px solid #ea580c;
+}
+
+.border-blue {
+    border-left: 8px solid #4f46e5;
+}
+
+.border-violet {
+    border-left: 8px solid #9333ea;
+}
+
+.border-pink {
+    border-left: 8px solid #db2777;
+}
+
+.border-red {
+    border-left: 8px solid #e11d48;
+}
